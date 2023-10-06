@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
 require "anchoko/github"
+
+Anchoko::Github::CLI.start(ARGV)
